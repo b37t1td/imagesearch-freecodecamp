@@ -1,0 +1,12 @@
+html
+  head
+    title Image search microservice
+  body
+    h2 Image Search Abstraction Layer (freeCodeCamp)
+    hr
+    h3 Search for images
+    p #{host}/api/search/:query[?offset=0]
+    strong Example of request second page of "cats" query
+    p #{host}/api/search/cats?offset=1
+    h3 Latest queries stats (last 10 queries)
+    p #{host}/api/latest

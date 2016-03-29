@@ -1,0 +1,27 @@
+{
+  "name": "imagesearch-freecodecamp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/b37t1td/imagesearch-freecodecamp.git"
+  },
+  "author": "Svetlana Linuxenko <linuxenko@yahoo.com> (http://www.linuxenko.pro)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/b37t1td/imagesearch-freecodecamp/issues"
+  },
+  "homepage": "https://github.com/b37t1td/imagesearch-freecodecamp#readme",
+  "dependencies": {
+    "async": "^2.0.0-rc.2",
+    "express": "^4.13.4",
+    "jade": "^1.11.0",
+    "mongodb": "^2.1.13",
+    "node-env-file": "^0.1.8",
+    "request": "^2.69.0"
+  }
+}
